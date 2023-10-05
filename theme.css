@@ -1,34 +1,61 @@
-body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
-}
-
-.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
-	display: none;
-}
-
-svg * {
-	stroke-linecap: square;
-	stroke-linejoin: miter;
-	rx: 0;
-	ry: 0;
-}
-
-.menu {
-	padding: var(--size-2-1);
-}
-
-.menu-item {
-	padding: var(--size-4-1) var(--size-4-2);
-}
-
-.menu-separator {
-	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
-}
+.theme-light {
+	/* Material You Tokens - Light Mode ✨☀️ */
+	--colorPrimary: hsl(var(--accent-h), 100%, 31%);
+	--colorPrimaryContainer: hsl(var(--accent-h), 100%, 93%);
+	--colorPrimaryContainerVariant: hsl(var(--accent-h), 100%, 85%);
+	--colorPrimaryContainerVariantHover: hsl(var(--accent-h), 100%, 91%);
+	--colorBackgroundPrimary: hsl(var(--accent-h), 100%, 97%);
+	--colorBackgroundSecondary: hsla(
+	  var(--accent-h),
+	  var(--accent-s),
+	  var(--accent-l),
+	  2%
+	);
+  
+	/* Navigation Items - Light Mode ✨☀️ */
+	--nav-item-color: black;
+  }
+  
+  .theme-dark {
+	/* Material You Tokens - Dark Mode ✨🌝  */
+	--colorPrimary: hsl(var(--accent-h), 100%, 80%);
+	--colorPrimaryContainer: hsl(var(--accent-h), 100%, 10%);
+	--colorPrimaryContainerVariant: hsl(var(--accent-h), 100%, 20%);
+	--colorPrimaryContainerVariantHover: hsl(var(--accent-h), 100%, 10%);
+	--colorBackgroundPrimary: hsl(var(--accent-h), 20%, 7%);
+	--colorBackgroundSecondary: hsl(var(--accent-h), 30%, 12%);
+  
+	/* Navigation Items - Dark Mode ✨🌝 */
+	--nav-item-color: white;
+  }
+  
+  body {
+	/* Interactive */
+	--interactive-normal: hsl(var(--accent-h), 100%, 90%);
+  
+	/* Background */
+	--background-primary: var(--colorBackgroundPrimary);
+	--background-secondary: var(--colorBackgroundSecondary);
+	--background-modifier-border: transparent;
+	--titlebar-background-focused: var(--colorBackgroundSecondary);
+  
+	/* Navigation */
+	--tab-background-active: var(--colorPrimaryContainerVariant);
+	--nav-item-background-hover: var(--colorPrimaryContainerVariantHover);
+	--nav-item-background-active: var(--colorPrimaryContainerVariant);
+	--text-highlight-bg: var(--colorPrimaryContainerVariant);
+  
+	/* Code */
+	--code-background: var(--colorPrimaryContainer);
+	--code-normal: var(--colorPrimary);
+  
+	/* Link */
+	--link-external-color: var(--colorPrimary);
+	--link-external-color-hover: var(--colorPrimary);
+  
+	/* Radius */
+	--button-radius: 100px;
+	--radius-s: 100px;
+	--radius-xl: 100px;
+  }
+  
