@@ -14,6 +14,10 @@
   
 	/* Navigation Items - Light Mode ✨☀️ */
 	--nav-item-color: black;
+
+	/* On accent- Light Mode ✨☀️ */
+	--text-on-accent: white;
+  	--text-on-accent-inverted: white;
   }
   
   .theme-dark {
@@ -32,6 +36,8 @@
   body {
 	/* Interactive */
 	--interactive-normal: hsl(var(--accent-h), 100%, 90%);
+	--interactive-accent: var(--colorPrimary);
+  	--interactive-accent-hover: var(--colorPrimary);
   
 	/* Background */
 	--background-primary: var(--colorBackgroundPrimary);
