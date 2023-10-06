@@ -31,6 +31,10 @@
   
 	/* Navigation Items - Dark Mode ✨🌝 */
 	--nav-item-color: white;
+
+	/* On accent- Dark Mode ✨🌝 */
+	--text-on-accent: var(--colorBackgroundSecondary);
+  	--text-on-accent-inverted: var(--colorBackgroundSecondary);
   }
   
   body {
