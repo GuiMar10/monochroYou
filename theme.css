@@ -59,8 +59,8 @@ body {
 
 	/* Tags */
 	--tag-color: var(--colorPrimary);
-	--tag-background: var(--colorBackgroundSecondary);
-	--tag-background-hover: var(--colorBackgroundSecondary);
+	--tag-background: var(--colorPrimaryContainer);
+	--tag-background-hover: var(--colorPrimaryContainer);
 
 	/* Radius */
 	--button-radius: 100px;
