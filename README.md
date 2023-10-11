@@ -5,5 +5,5 @@ My first Obsidian theme.
 
 *Material You is a property of Google*
 
-*Report any bugs at the GitHub repo: GuiMar10/maerial-you-for-obsidian*
+*Report any bugs at the GitHub repo: GuiMar10/monochroYOU*
 
